@@ -36,13 +36,16 @@
 
 ## PyQt4 Package
  
-* Goto  [Unofficial Windows Binaries for Python Extension Packages page](http://www.lfd.uci.edu/~gohlke/pythonlibs/)
+* Goto  [Unofficial Windows Binaries for Python Extension Packages page](https://www.lfd.uci.edu/~gohlke/pythonlibs/)
 
 * Download the suitable release (distributed as a “wheel” archive) series that matches your Windows and Python versione. In the filename, the digits after “cp” indicate the Python version, e.g.
+
+https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyqt4
+
 ```bash  
- PyQt4-4.11.4-cp35-cp35m-win_amd64.whl.whl 
+ PyQt4-4.11.4-cp35-cp35m-win_amd64.whl 
 ```  
-is the installer  of PyQt4-4.11.4for 64-bit Python 3.5 and windows.
+is the installer  of PyQt4-4.11.4 for 64-bit Python 3.5 and windows.
 
 * From an administrative command prompt, install the downloaded wheel using pip.
 ```bash       
